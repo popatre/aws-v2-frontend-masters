@@ -1,16 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 
-import Application from './Application';
+import Application from "./Application";
 
-import './index.css';
+import "./index.css";
+//comment
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Application />
-    </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <BrowserRouter>
+            <Application />
+        </BrowserRouter>
+    </React.StrictMode>,
+    document.getElementById("root")
 );
